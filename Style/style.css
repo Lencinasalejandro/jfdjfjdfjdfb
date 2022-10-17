@@ -1,0 +1,66 @@
+/* hoja de estilos*/
+:root{
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+h2{
+    color: blueviolet;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+body{
+    border: 5px;
+    border-color: rgb(112, 173, 226);
+    color: bisque;
+    text-align: left;
+    font-size: 30px;
+    padding: 5%;
+    /*background-color: gray;*/
+    font-family: Verdana;
+    background-image: url('Captura de pantalla 2022-08-25 195436.png');
+}
+form{
+    font-family: ProductSans;
+    font-size: 20px;
+    color: aqua;
+    background-color: rgb(3, 31, 3);
+}
+select{
+    position:static;
+    left: 200px;
+    
+    background-color: black;
+    color: antiquewhite;
+    font-size: 25px;
+
+}
+.button{
+    position: relative;
+    left: 80px;
+    text-align: center;
+    color: rgb(120, 14, 129);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    align-self: center;
+    /*margin-right: 10%;*/
+}
+img{
+    position: static;
+    left: 300px;
+}
+div{
+    width: 450px;
+    position: relative;
+    left: 80px;
+    background-color: black;
+}
